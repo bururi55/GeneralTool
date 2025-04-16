@@ -1,18 +1,18 @@
 /* Стили для кнопок копирования */
-.copy-buttons-section {
+.copy-buttons-sectionSMKT {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: -40px;
+  top: -25px;
 }
 
-.copy-button-group {
+.copy-button-group-SMKT {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .copy-button {
@@ -111,13 +111,14 @@ details[open] div {
   }
 }
 
-.zagolovok {
+.zagolovokSMKT {
   color: white;
   font-size: 1.5em;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-align: center;
   width: 100%;
+  margin: 0px;
 }
 
 .preserve-formatting {

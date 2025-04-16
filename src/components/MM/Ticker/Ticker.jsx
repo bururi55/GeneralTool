@@ -8,9 +8,11 @@ const Ticker = () => {
         <marquee className="stroka">
           Аууу эй, ПИСЯТ ДВА © Albak52 &emsp;&emsp;&emsp;&emsp; Чат не хуй, сиди
           кайфуй © ilyaostr &emsp;&emsp;&emsp;&emsp; Не имей медведя, а раки
-          зимуют © bururi &emsp;&emsp;&emsp;&emsp; САМОСТОЯТЕЛЬНО © ol_ya07
-          &emsp;&emsp;&emsp;&emsp; Не суди, да судим не будешь, не буди, да не
-          будидабудай © bururi &emsp;&emsp;&emsp;&emsp; ПОЖАЛУЙСТА © icyshaxcs
+          зимуют © bururi &emsp;&emsp;&emsp;&emsp; Не суди, да судим не будешь,
+          не буди, да не будидабудай © bururi &emsp;&emsp;&emsp;&emsp;
+          ПОЖАЛУЙСТА © icyshaxcs &emsp;&emsp;&emsp;&emsp; Я НЕ ТВОЯ МАМА! ©
+          ВерОчка &emsp;&emsp;&emsp;&emsp; Геншин топ АЭЭУАУЭ © Алуона
+          &emsp;&emsp;&emsp;&emsp;
         </marquee>
       </div>
       <a

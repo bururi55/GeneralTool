@@ -1,16 +1,16 @@
 /* Стили для кнопок копирования */
-.copy-buttons-section {
+.copy-buttons-sectionMM {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.copy-button-group {
+.copy-button-group-MM {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .copy-button {
@@ -109,13 +109,14 @@ details[open] div {
   }
 }
 
-.zagolovok {
+.zagolovokMM {
   color: white;
   font-size: 1.5em;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-align: center;
   width: 100%;
+  margin: 0px;
 }
 
 .preserve-formatting {

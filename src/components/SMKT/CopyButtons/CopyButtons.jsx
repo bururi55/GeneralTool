@@ -1,5 +1,5 @@
 import React from "react";
-import "./CopyButtons.css";
+import "./CopyButtonsSMKT.css";
 import "../../../App.css";
 
 const CopyButtons = () => {
@@ -9,9 +9,9 @@ const CopyButtons = () => {
   };
 
   return (
-    <div className="copy-buttons-section">
-      <div className="copy-button-group">
-        <p className="zagolovok">
+    <div className="copy-buttons-sectionSMKT">
+      <div className="copy-button-group-SMKT">
+        <p className="zagolovokSMKT">
           <b>Холды/Пушы/Закрытие/Приветствие</b>
         </p>
         <div style={{ fontSize: 0 }} id="t1">
@@ -34,7 +34,7 @@ const CopyButtons = () => {
           Холд ещё
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-SMKT">
         <div style={{ fontSize: 0 }} id="t4">
           Отправь, пожалуйста, скриншот с ошибкой. Поможет быстрее разобраться
         </div>
@@ -55,7 +55,7 @@ const CopyButtons = () => {
           Не дождался ответа
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-SMKT">
         <div style={{ fontSize: 0 }} id="t7">
           Привет, ! Чем могу помочь?
         </div>
@@ -75,9 +75,8 @@ const CopyButtons = () => {
           Прости за ожидание
         </button>
       </div>
-
-      <div className="copy-button-group">
-        <p className="zagolovok">
+      <div className="copy-button-group-SMKT">
+        <p className="zagolovokSMKT">
           <b>Оплата</b>
         </p>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t10">
@@ -102,7 +101,7 @@ const CopyButtons = () => {
           Стык Месяцев
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-SMKT">
         <div style={{ fontSize: 0 }} id="t13">
           Тебе направят в понедельник-вторник ХХХ рублей
         </div>
@@ -122,7 +121,7 @@ const CopyButtons = () => {
           Расчёт верный
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-SMKT">
         <div style={{ fontSize: 0 }} id="text49">
           Передал информацию специалистам. С обратной связью вернусь в личные сообщения в Telegram в течение суток
         </div>
@@ -145,7 +144,7 @@ const CopyButtons = () => {
         </button>
       </div>
 
-      <div className="copy-button-group">
+      <div className="copy-button-group-SMKT">
         <div style={{ fontSize: 0 }} id="text102">
         Часы/Премия некорректно выгрузились в ведомость [указать причину]. Внесу разницу в размере ХХ рублей как долг, всю сумму переведут ХХХ
         </div>
@@ -168,8 +167,8 @@ const CopyButtons = () => {
         </button>
       </div>
 
-      <div className="copy-button-group">
-        <p className="zagolovok">
+      <div className="copy-button-group-SMKT">
+        <p className="zagolovokSMKT">
           <b>Приведи друзей к нам</b>
         </p>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text16">
@@ -193,7 +192,7 @@ const CopyButtons = () => {
           Шаблон резюме
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-SMKT">
         <div style={{ fontSize: 0 }} id="text19">
           Условия акции не выполнены, бонус не отправят. 
           <br /> (либо)
@@ -213,6 +212,63 @@ const CopyButtons = () => {
         </button>
         <button onClick={() => copyText("#text21")} className="copy-button">
         10 дней ДА
+        </button>
+      </div>
+      <div className="copy-button-group-SMKT">
+        <p className="zagolovokSMKT">
+          <b>Разное</b>
+        </p>
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text55">
+        Мы не квалифицированные специалисты, рекомендую:
+        <br />- Обратиться по номеру телефона доверия: +7 (495) 989–50-50;
+        <br />- Или задать вопрос психологу на сайте Экстренной психологической помощи:https://psi.mchs.gov.ru/
+        </div>
+        <div style={{ fontSize: 0 }} id="text56">
+        —
+        </div>
+        <div style={{ fontSize: 0 }} id="text57">
+        «»
+        </div>
+        <button onClick={() => copyText("#text55")} className="copy-button">
+          Пваки-Пваки
+        </button>
+        <button onClick={() => copyText("#text56")} className="copy-button">
+        —
+        </button>
+        <button onClick={() => copyText("#text57")} className="copy-button">
+        «»
+        </button>
+      </div>
+      <div className="copy-button-group-SMKT">
+        <div className="preserve-formatting"  style={{ fontSize: 0 }} id="text184">
+        Можешь сбросить самостоятельно:
+      <br />- На странице авторизации нажимаем на кнопку «Забыли пароль?»;
+      <br />- В открывшейся строке вписываем корпоративную почту, на которую регистрировали аккаунт, и нажимаем на «Отправить»;
+      <br />- На почту пришлют письмо со ссылкой, чтобы установить себе пароль 
+        </div>
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text185">
+          Для создания заявки уточни следующее, пожалуйста:
+        <br />- ФИО;
+        <br />- Корпоративную почту;
+        <br />- Тег Telegram;
+        <br />- Скриншот ошибки;
+        <br />- Подробное описание проблемы:
+        <br />- Что хочеom сделать?;
+        <br />- Какая последовательность действий приводит к ошибке?;
+        <br />- Номер телефона/gd покупателя и/или номер заказа/доставки, в которой обнаружен сбой;
+        <br />- Как часто возникает ошибка
+        </div>
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text186">
+        Инфомрацию передал. Ответ предоставят на корпоративную почту в течение 5(10 ЦФЗ) дней. Если не получишь обратную связь, напиши нам повторно, пожалуйста
+        </div>
+        <button onClick={() => copyText("#text184")} className="copy-button">
+          ЧатВуд Сброс 
+        </button>
+        <button onClick={() => copyText("#text185")} className="copy-button">
+          ЕРМ Запрос ТО
+        </button>
+        <button onClick={() => copyText("#text186")} className="copy-button">
+          ЖБ передали
         </button>
       </div>
     </div>

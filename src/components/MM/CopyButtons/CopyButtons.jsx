@@ -1,5 +1,5 @@
 import React from "react";
-import "./CopyButtons.css";
+import "./CopyButtonsMM.css";
 import "../../../App.css";
 
 const CopyButtons = () => {
@@ -9,9 +9,9 @@ const CopyButtons = () => {
   };
 
   return (
-    <div className="copy-buttons-section">
-      <div className="copy-button-group">
-        <p className="zagolovok">
+    <div className="copy-buttons-sectionMM">
+      <div className="copy-button-group-MM">
+        <p className="zagolovokMM">
           <b>Холды/Пушы/Закрытие/Приветствие</b>
         </p>
         <div style={{ fontSize: 0 }} id="t1">
@@ -34,7 +34,7 @@ const CopyButtons = () => {
           Холд ещё
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div style={{ fontSize: 0 }} id="t4">
         Отправь, пожалуйста, скриншот с ошибкой. Поможет быстрее разобраться
         </div>
@@ -55,7 +55,7 @@ const CopyButtons = () => {
           Не дождался ответа
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div style={{ fontSize: 0 }} id="t7">
           Привет, ! Чем могу помочь?
         </div>
@@ -76,8 +76,8 @@ const CopyButtons = () => {
         </button>
       </div>
 
-      <div className="copy-button-group">
-        <p className="zagolovok">
+      <div className="copy-button-group-MM">
+        <p className="zagolovokMM">
           <b>Оплата</b>
         </p>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t10">
@@ -103,7 +103,7 @@ const CopyButtons = () => {
           Стык Месяцев
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div style={{ fontSize: 0 }} id="t13">
           Тебе направят в среду-четверг ХХХ рублей
         </div>
@@ -125,7 +125,7 @@ const CopyButtons = () => {
           Расчёт верный
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div style={{ fontSize: 0 }} id="text49">
           Тебя нет в ведомости. Передал информацию специалистам. Точных сроков
           нет. Как только получим ответ, вернёмся в личные сообщения Telegram
@@ -149,8 +149,8 @@ const CopyButtons = () => {
         </button>
       </div>
 
-      <div className="copy-button-group">
-        <p className="zagolovok">
+      <div className="copy-button-group-MM">
+        <p className="zagolovokMM">
           <b>Приведи друзей к нам</b>
         </p>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text16">
@@ -175,7 +175,7 @@ const CopyButtons = () => {
           Шаблон резюме
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div style={{ fontSize: 0 }} id="text19">
           Вижу, что ИМЯ находится в резерве. Как только появятся свободные
           места, с ним свяжутся

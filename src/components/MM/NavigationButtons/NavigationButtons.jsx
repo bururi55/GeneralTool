@@ -1,26 +1,26 @@
 import React from "react";
-import "./NavigationButtons.css";
+import "./NavigationButtonsMM.css";
 
 const NavigationButtons = () => {
   return (
-    <div className="navigation-buttons">
+    <div className="navigation-buttonsMM">
       <center>
         <a
           href="https://portal2.infobip.com/homepage/"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           ИнфоБип вход
         </a>
         &emsp;
-        <a href="https://e.mail.ru/inbox/" target="_blank" className="bott">
+        <a href="https://e.mail.ru/inbox/" target="_blank" className="bottMM">
           Почта СМКТ
         </a>
         &emsp;
         <a
-          href="https://docs.google.com/spreadsheets/d/1nSPCoJCH-MrNFOd6qPYMWZuK3HUvLh20c2icND0wL2E/edit#gid=595819934"
+          href="https://docs.google.com/spreadsheets/d/19aYApWLHbERCYCW7CtmzYYZohxbdnMjUEALJUVDxfBk/edit?gid=0#gid=0"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Перерывы Таблица
         </a>
@@ -28,7 +28,7 @@ const NavigationButtons = () => {
         <a
           href="https://docs.google.com/spreadsheets/d/1Rlx32bvQTQPdbELLucb8tqJIRxZ-F0UEcjtptuBJcG4/edit#gid=0"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Графики Внутр
         </a>
@@ -36,47 +36,47 @@ const NavigationButtons = () => {
         <a
           href="https://mail.sbermegamarket.ru/owa/Sup4Sup@megamarket.ru/?offline=disabled#path=/mail/msgfolderroot"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           ПОЧТА ОБЩАЯ
         </a>
         &emsp;
         <a
-          href="https://docs.google.com/spreadsheets/d/1UWhLRtZNMX4WLxySXad8RE6d45uhUT7oyUO4T_bn86Q/edit#gid=0/1UWhLRtZNMX4WLxySXad8RE6d45uhUT7oyUO4T_bn86Q/edit%23gid=0"
+          href="https://space.samokat.ru/pages/viewpage.action?pageId=4133298008"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
-          Штатка Мегамаркет
+          Матрица СМКТ
         </a>
         &emsp;
         <a
           href="https://timesheet.mmarket.pro/employees"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           ТАймтрек/поиск
         </a>
         &emsp;
         <a
-          href="https://mm-chat.ecom-tech.sbmt.io/app"
+          href="https://mm-chat.ecom-tech.sbmt.io/"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Чат Вууд ММ
         </a>
         &emsp;
         <a
-          href="https://project.samokat.ru/servicedesk/customer/portal/2/create/3065"
+          href="https://project.samokat.ru/secure/RapidBoard.jspa?rapidView=302&selectedIssue=S4S-17479"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
-          Создание задачи
+          Дашборд S4S
         </a>
         &emsp;
         <a
           href="https://docs.google.com/spreadsheets/d/1WrwEtIE-SfQa0I9k-mszhvHNqGTce-8coIpUlVCrqo0/edit?usp=sharing"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Ведомость Верное
         </a>
@@ -85,7 +85,7 @@ const NavigationButtons = () => {
         <a
           href="https://docs.google.com/spreadsheets/d/1P6gJlL66Ukc0b90TvbPLd1DJQtewBU6xk4Iqk4NCu_I/edit?gid=1706957007#gid=1706957007"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           ЖалоБы И ПД ММ
         </a>
@@ -93,7 +93,7 @@ const NavigationButtons = () => {
         <a
           href="https://mail.sbermegamarket.ru/owa/#path=/mail"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Почта Маркет
         </a>
@@ -101,7 +101,7 @@ const NavigationButtons = () => {
         <a
           href="https://space.samokat.ru/pages/viewpage.action?pageId=4038691596#id-РегламентС4СМегамаркета-СоздатьучетнуюзаписьERM"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Регламент Маркета
         </a>
@@ -109,35 +109,35 @@ const NavigationButtons = () => {
         <a
           href="https://staffdesk.workround.tech/callback"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           Стаффдеск Поиск
         </a>
         &emsp;
         <a
-          href="https://sbermegamarketru.webim.ru/"
+          href="https://space.samokat.ru/pages/viewpage.action?pageId=3889109158"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
-          Webim вход
+          Матрица Верное
         </a>
         &emsp;
         <a
           href="https://app.v20.touchpoint-analytics.ru/login"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           touchpoint вход
         </a>
         &emsp;
-        <a href="https://app.angryspace.ru/" target="_blank" className="bott">
+        <a href="https://app.angryspace.ru/" target="_blank" className="bottMM">
           Angry вход
         </a>
         &emsp;
         <a
           href="https://manager.uznaipro.ru/company/users/list"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           УзнайПРО Вход
         </a>
@@ -145,7 +145,7 @@ const NavigationButtons = () => {
         <a
           href="https://cc-new.sbermegamarket.ru/user-logs"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           ERM/EРМ вход
         </a>
@@ -153,7 +153,7 @@ const NavigationButtons = () => {
         <a
           href="https://docs.google.com/spreadsheets/d/168TBAgaEZQTrZG574e869SOCGAv6f0PNtcEOevucrMc/edit#gid=1787306399"
           target="_blank"
-          className="bott"
+          className="bottMM"
         >
           ПД таблица
         </a>

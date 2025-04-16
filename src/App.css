@@ -1,7 +1,7 @@
 /* Общие стили */
 body,
 html {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   /*overflow: hidden;*/
   background-image: url("/src/assets/easter1.jfif");
@@ -23,14 +23,11 @@ html {
 }
 
 /*кнопка перехода*/
-.top-buttons {
-  display: flex;
-  margin-top: 5px;
-}
 
 .switchButton {
   color: white;
   border: none;
+
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -39,7 +36,8 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 3px;
-  left: 70px;
+  left: 90px;
+  top: 10px;
   z-index: 1000;
   opacity: 0.9;
   background-color: #f8a849;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./CopyButtons.css";
+import "./CopyButtonsMM.css";
 import "../../../App.css";
 
 const CopyButtons = () => {
@@ -9,10 +9,10 @@ const CopyButtons = () => {
   };
 
   return (
-    <div className="copy-buttons-section">
-      <div className="copy-button-group">
-        <p className="zagolovok">
-          <b>Задачи и ТО</b>
+    <div className="copy-buttons-sectionMM">
+      <div className="copy-button-group-MM">
+        <p className="zagolovokMM">
+          <b>VPN ТО</b>
         </p>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t25">
           Рекомендую: 
@@ -20,181 +20,172 @@ const CopyButtons = () => {
           <br />2. Убедиться, что настройки в клиенте заданы верно. Порт: 54443, адрес подключения: river.megamarket.tech
         </div>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t26">
-          Рекомендую: 
-          <br />1. Убедиться, что настройки в клиенте заданы верно. Порт: 54443, адрес подключения: river.megamarket.tech; 
-          <br />2. Переустановить VPN по инструкции: https://clck.ru/3DT98z 
-          <br />3. Уточнить о блокировке у провайдера
+        Пришли, пожалуйста, скриншот настройки шлюза. 
+        <br />Для этого нажми на три горизонтальные полоски возле строки “Имя VPN” и перейди во вкладку “Редактировать подключение”. Проверю данные на корректность
         </div>
-        <div style={{ fontSize: 0 }} id="t27">
-          Инструкция: https://clck.ru/3DT98z
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t27">
+        Вижу, что у тебя некорректно настроен VPN. 
+        <br />В строку "Удалённый шлюз" необходимо вставить ссылку: river.megamarket.tech или river.megamarket.tech:54443/cc, а для порта задать значение: 54443
         </div>
         <button onClick={() => copyText("#t25")} className="copy-button">
-          VPN 455
+          VPN 455&7200
         </button>
         <button onClick={() => copyText("#t26")} className="copy-button">
-          VPN ТО другое
+          Запрос Скрина Шлюза
         </button>
         <button onClick={() => copyText("#t27")} className="copy-button">
-          VPN Инструкция
+          Шлюз верный
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t28">
-          Чтобы устранить проблему, пожалуйста, сделай следующее: 
-          <br />• перезагрузи страницу через ctrl+F5(очистка кэша); 
-          <br />• очисти cookies; 
-          <br />• попробуй перелогиниться на сервисе или войти через другой браузер (Google
-          Chrome). 
-          <br />При сохранении проблемы напиши нам повторно
+        Ошибка может возникать из-за нестабильного соединения. Рекомендую перезагрузить интернет и устройство
         </div>
-        <div style={{ fontSize: 0 }} id="t29">
-          Передам данные техническим специалистам в течение 5-10 минут. А пока
-          напиши свой тег в Telegram, вернёмся с обратной связью туда
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t29">
+        Рекомендуем полностью удалить корпоративный VPN с устройства. 
+        <br />А затем установить его заново, пользуясь инструкцией: https://drive.google.com/drive/folders/1CG_p8MDZUYMuWIEo5O2rZerlTL1-cIpp?ths=true
         </div>
-        <div style={{ fontSize: 0 }} id="t30">
-          Задачу создал. Срок решения — до 3 дней. Как только получим ответ,
-          напишем в личные сообщения Telegram. Если по истечении этого времени с
-          тобой не свяжутся, сообщи нам повторно, пожалуйста
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t30">
+        Такую ошибку можно увидеть при отсутствии или нестабильном интернет-соединения. 
+        <br />Рекомендуем обновить подключение к сети. Если это не поможет, обратись, пожалуйста, к своему провайдеру для анализа ситуации
         </div>
         <button onClick={() => copyText("#t28")} className="copy-button">
-          Тех Реки
+          Нестабильный инет
         </button>
         <button onClick={() => copyText("#t29")} className="copy-button">
-          Передам АЙТИ
+          Переустановить ВПН
         </button>
         <button onClick={() => copyText("#t30")} className="copy-button">
-          Задачу создал
+          Нет интернетав
         </button>
       </div>
-      <div className="copy-button-group">
-        <div style={{ fontSize: 0 }} id="t31">
-          Передал данные в работу. Доступы заберём в течение 3 дней
+      <div className="copy-button-group-MM">
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t31">
+        Такую ошибку можно увидеть при установке некорректных настроек. 
+        <br />Чтобы устранить ошибку, нажми на три горизонтальные полоски возле строки “Имя VPN” и перейди во вкладку “Редактировать подключение”. 
+        <br />Далее убери галочку с пункта Enable Dual-stack IPv4/IPv6 address и попробуй авторизоваться ещё раз
         </div>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t32">
-          Передал данные в работу. Доступы сделаем в течение 3 дней. 
-          <br />Учётная запись будет действительна в течение 90 дней. По истечении этого срока
-          на почту руководителя, придёт письмо с просьбой подать заявку на
-          продление учётной записи. 
-          <br />Если данные для входа не получит, напиши нам повторно
+        Такая проблема может быть связана с нестабильным интернет-соединением. Чтобы устранить ошибку, рекомендуем перезагрузить сеть и устройство либо подключиться к другому Wi-Fi. 
+        <br />Если после этого не получится авторизоваться, обратись к нам повторно
         </div>
-        <div style={{ fontSize: 0 }} id="t33">
-          Просьба забрать доступы у контрагента в только контуре ММ
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t33">
+        Информацию о проблеме передал. Срок решения — до 3 дней. Как только получим ответ, напишем в личные сообщения Telegram. 
+        <br />Если по истечении этого времени проблема останется, сообщи нам повторно, пожалуйста
         </div>
         <button onClick={() => copyText("#t31")} className="copy-button">
-          Заберем доступы
+          FortiGate -5100
         </button>
         <button onClick={() => copyText("#t32")} className="copy-button">
-          Сделаем доступы
+          Зависает блин
         </button>
         <button onClick={() => copyText("#t33")} className="copy-button">
-          Забрать для задачи
+          Задачу создали
         </button>
       </div>
-      <div className="copy-button-group">
-        <div style={{ fontSize: 0 }} id="t34">
-          https://space.samokat.ru/pages/viewpage.action?pageId=3889109158
+      <div className="copy-button-group-MM">
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t34">
+          Рекомендую выполнить настройку и подключение по инструкции: https://docs.google.com/document/d/1lDwffVJYAXx9QMZxirPNId4K_9W4oWPD7qheyuWM0AQ/edit?tab=t.0
         </div>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="t35">
-          Перейди в бота: https://t.me/MWordBot 
-          <br />Активируй учётную запись и в Таймтреке нажми на кнопку «Сбросить пароль». После бот направит новый пароль
+        Рекомендую подключиться с помощью инструкции:https://docs.google.com/document/d/1lDwffVJYAXx9QMZxirPNId4K_9W4oWPD7qheyuWM0AQ/edit?tab=t.0 
+        <br />Начиная с пункта «Подключение зарегистрированного пользователя»
         </div>
-        <div style={{ fontSize: 0 }} id="t36">
-          Мы можем помочь только с учётными записями для операторов. В твоем
-          случае нужно обратиться к Галине Соловьевой на почту:
-          gsoloveva@samokat.ru
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t36">
+        1. Установи приложение Multifactor на мобильный телефон:
+<br />- Приложение в App Store: https://apps.apple.com/ru/app/multifactor/id1533648669
+<br />- Приложение в Google Store: https://play.google.com/store/apps/details?id=ru.multifactor.app
+<br />- Приложение в Huawei Store: https://appgallery.huawei.com/%23/app/C104160827
+<br />- Приложение в RuStore: https://apps.rustore.ru/app/ru.multifactor.app
+<br />2. Запусти на устройстве FortiClient VPN;
+<br />3. Введи свой логин и пароль для VPN компании группы e-com, к которой хочешь подключиться. Нажми «Соединить».
+<br />4. На экране FortiClient VPN увидишь сообщение с шестизначным кодом — введи его в Multifactor. Для этого открой приложение «Multifactor» на мобильном телефоне и нажми на кнопку с изображением «+». Важно подключить мобильное устройство к сети Интернет.
+<br />5. Далее необходимо выбрать пункт «Ввести код вручную», ввести 6-значный код, отображающийся на экране FortiClient VPN, и нажать кнопку «Добавить аккаунт».
+<br />6. В мобильном приложении заметишь код проверки — введи его в FortiClient VPN в поле «Answer».
+<br />7. После отправки кода подтверждения ты закончишь настройку 2-го фактора и установишь подключение к VPN
         </div>
         <button onClick={() => copyText("#t34")} className="copy-button">
-          Матрица доступов
+          2ФА 1раз
         </button>
         <button onClick={() => copyText("#t35")} className="copy-button">
-          Таймтрек Сброс
+          2ФА не 1 раз
         </button>
         <button onClick={() => copyText("#t36")} className="copy-button">
-          РА не для оперов
+          2ФА Инструкция(текст)
         </button>
       </div>
 
-      <div className="copy-button-group">
-        <p className="zagolovok">
+      <div className="copy-button-group-MM">
+        <p className="zagolovokMM">
           <b>Разное</b>
         </p>
-        <div style={{ fontSize: 0 }} id="t37">
-          Логин и пароль такие же, как от корпоративной почты. Введи их,
-          пожалуйста
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t37">
+          Согалсно ролевой модели доступ к сервису ХХ для твоей роли не положен. Рекомендую обратиться к владельцу сервиса и информационной безопасности для согласования
         </div>
-        <div style={{ fontSize: 0 }} id="t38">
-          Ты можешь поделиться своей болью, если это уместно. Однако скажу
-          сразу, что я обычный оператор и не смогу дать совет по данной
-          проблеме, но я хочу помочь тебе. Позвони, пожалуйста, по телефону
-          доверия: +74959895050
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t38">
+          Рекомендую:
+          <br />1. Проверить, работает ли VPN;
+          <br />2. Перезагрузить страницу через ctrl+F5(очистка кэша);
+          <br />3. Зайти с другого браузера или перейти в режим инкогнито.
         </div>
-        <div style={{ fontSize: 0 }} id="t39">
-          У нас нет доступа к расписанию. Рекомендую обратиться к тимлидеру или
-          в чат супервайзеров: https://t.me/supervisor_support_bot
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="t39">
+        Направил данные техническим специалистам. Письмо с паролем направят на личную почту в течение 3 дней. 
+        <br />Если за это время ничего не придёт, напиши, пожалуйста, повторно
         </div>
         <button onClick={() => copyText("#t37")} className="copy-button">
-          VPN пароль
+          Нет доступа по РМ
         </button>
         <button onClick={() => copyText("#t38")} className="copy-button">
-          Суисайд
+          ТехРеки Джира/Конфа
         </button>
         <button onClick={() => copyText("#t39")} className="copy-button">
-          Вопрос по слотам
+          Пароль АД Сбросим
         </button>
       </div>
-      <div className="copy-button-group">
-        <div style={{ fontSize: 0 }} id="text40">
-          Превышен лимит администраторов, права дать не сможем. Если нужно
-          добавить кого-то, они могут перейти по ссылке:
-          https://t.me/+4lmgw0Vdd4pjYmRi
+      <div className="copy-button-group-MM">
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text40">
+        Логин и пароль такие же, как от VPN. Введи их, пожалуйста
         </div>
-        <div style={{ fontSize: 0 }} id="text41">
-          Подробности можно уточнить в компании по телефону: 8 (800) 511-12-11
-          или 8 (812) 607-64-64
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text41">
+        Перейди в бота: https://t.me/MWordBot 
+        <br />Активируй учётную запись и в Таймтреке нажми на кнопку «Сбросить пароль». После бот направит новый пароль
         </div>
-        <div style={{ fontSize: 0 }} id="text42">
-          Доступы в сервисы Мегамаркета выдаются только после согласования с
-          Информационной Безопасностью. Для твоего направления выдать не
-          получится, так как процесс не согласован. Обратись, пожалуйста, к
-          своему руководителю
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text42">
+          Можешь сбросить пароль самостоятельно через кнопку «Забыли пароль?» на странице с авторизацией
         </div>
         <button onClick={() => copyText("#text40")} className="copy-button">
-          ТГ Важные изменения
+          Пароль АД Какой?
         </button>
         <button onClick={() => copyText("#text41")} className="copy-button">
-          Телефон ВР
+          ТТ Сброс пароля 
         </button>
         <button onClick={() => copyText("#text42")} className="copy-button">
-          Доступы Левым
+          РА сброс пароля
         </button>
       </div>
-      <div className="copy-button-group">
-        <div style={{ fontSize: 0 }} id="text43">
-          —
+      <div className="copy-button-group-MM">
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text43">
+        Доступ выдалл. Для авторизации нужно перейти по ссылке:https://casdoor.workround.tech/forget/staff-desk и следовать инструкции в карточках
         </div>
-        <div style={{ fontSize: 0 }} id="text44">
-          «»
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text44">
+          Рекомендую обратиться по этому вопросу в бот: https://t.me/SamokatOfficeBot
         </div>
-        <div style={{ fontSize: 0 }} id="text45">
-          Превышен лимит администраторов, права дать не сможем. Если нужно
-          добавить кого-то, они могут перейти по ссылке:
-          https://t.me/+BGUrK1kcBGI5ZWI6
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text45">
+        Учётную запись создадим в течение суток. Данные для входа пришлём на корпоративную почту. Если этого не произойдёт, напиши нам повторно, пожалуйста
         </div>
         <button onClick={() => copyText("#text43")} className="copy-button">
-          —
+          StaffDesk доступ дали
         </button>
         <button onClick={() => copyText("#text44")} className="copy-button">
-          «»
+          Штат - Домой
         </button>
         <button onClick={() => copyText("#text45")} className="copy-button">
-          ТГ ММ Акции
+          Создать УЗ УзнайПро
         </button>
       </div>
-      <div className="copy-button-group">
-        <div style={{ fontSize: 0 }} id="text46">
-          Доступы в сервисы Мегамаркета выдаются только по согласованной матрице
-          доступов. Для твоего направления выдать не получится, так как процесс
-          не согласован. Обратись, пожалуйста, к своему руководителю
+      <div className="copy-button-group-MM">
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text46">
+        Рекомендую обратиться к специалисту обучения/тренеру, так как доступы к материалам предоставляют они
         </div>
 
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text47">
@@ -210,44 +201,61 @@ const CopyButtons = () => {
           <br />- Подробное описание проблемы
         </div>
 
-        <div style={{ fontSize: 0 }} id="text48"></div>
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text48">Можешь сбросить самостоятельно:
+          <br />На странице авторизации нажимаем на кнопку «Забыли пароль?»;
+          <br />В открывшейся строке вписываем корпоративную почту, на которую регистрировали аккаунт, и нажимаем на «Отправить»;
+          <br />На почту пришлют письмо со ссылкой, чтобы установить себе пароль. </div>
         <button onClick={() => copyText("#text46")} className="copy-button">
-          Доступ по Матрице
+          УзнайПро Нет Тестов
         </button>
         <button onClick={() => copyText("#text47")} className="copy-button">
           ERM ТО Уточни
         </button>
         <button onClick={() => copyText("#text48")} className="copy-button">
-          --
+          Чатвуд Смена пароля
         </button>
       </div>
-      <div className="copy-button-group">
+      <div className="copy-button-group-MM">
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text52">
-          Техническая поддержка штатных сотрудников компании с 1 сентября
-          работает только через портал ithelp.samokat.ru. Рекомендуем создать
-          задачу на технических специалистов самостоятельно:
-          http://ithelp.samokat.ru/ 
-          <br />Авторизоваться можно с помощью учётной записи Мегамаркета, если нет учётной записи Самокат. Подробнее о входе в систему рассказали в инструкции: https://docs.google.com/document/d/1GcX-lUNz1oeZwAhdzG7eNQDEmEnRXadfUbd5lm8VmUI/edit
-          <br />Если не получится самостоятельно, сообщи своему руководителю
+        Информацию о проблеме передал, точных сроков решения нет. 
+        <br />Как только получим ответ, напишем в личные сообщения Telegram
         </div>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text53">
-          В дальнейшем можешь узнать самостоятельно, умножив часы в Таймтреке на
-          свою ставку — 150 рублей в час. И добавить премию, если она есть.
-          <br />Уточнить сумму можно у тимлидера или в чате супервайзеров:
-          https://t.me/supervisor_support_bot
+        Данные для входа отправил на корпоративную почту. Если не получишь письмо в течение суток, напиши нам повторно, пожалуйста
         </div>
-        <div style={{ fontSize: 0 }} id="text54">
-          Данные для входа отправил на корпоративную почту. Если не получишь
-          письмо в течение суток, напиши нам повторно, пожалуйста
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text54">
+          Данные для входа отправил на корпоративную почту. Если не получишь письмо в течение суток, напиши нам повторно, пожалуйста
         </div>
         <button onClick={() => copyText("#text52")} className="copy-button">
-          ШТАТ ЗАДАЧИ
+          Чатвуд ТО Задача
         </button>
         <button onClick={() => copyText("#text53")} className="copy-button">
-          ОПЛАТА САМ
+          ЕРМ сброс пароля
         </button>
         <button onClick={() => copyText("#text54")} className="copy-button">
           ERM Пароль
+        </button>
+      </div>
+      <div className="copy-button-group-MM">
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text171">
+        Мы не квалифицированные специалисты, рекомендую:
+        <br />Обратиться по номеру телефона доверия: +7 (495) 989–50-50;
+        <br />Или задать вопрос психологу на сайте Экстренной психологической помощи:https://psi.mchs.gov.ru/
+        </div>
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text172">
+        —
+        </div>
+        <div className="preserve-formatting" style={{ fontSize: 0 }} id="text173">
+        «»
+        </div>
+        <button onClick={() => copyText("#text171")} className="copy-button">
+          Пваки-Пваки
+        </button>
+        <button onClick={() => copyText("#text172")} className="copy-button">
+        —
+        </button>
+        <button onClick={() => copyText("#text173")} className="copy-button">
+        «»
         </button>
       </div>
     </div>
