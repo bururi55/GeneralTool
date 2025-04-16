@@ -9,9 +9,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/S4SInstrument/" element={<LoginPage />} />
+        <Route path="/GeneralTool/" element={<LoginPage />} />
         <Route
-          path="/S4SInstrument/mm"
+          path="/GeneralTool/mm"
           element={
             <PrivateRoute>
               <MMMainComponent />
@@ -19,7 +19,7 @@ const App = () => {
           }
         />
         <Route
-          path="/S4SInstrument/smkt"
+          path="/GeneralTool/smkt"
           element={
             <PrivateRoute>
               <SMKTMainComponent />

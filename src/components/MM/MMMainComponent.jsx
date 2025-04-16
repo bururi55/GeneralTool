@@ -19,7 +19,7 @@ const MMMainComponent = () => {
         <NavigationButtons />
         <button
           className="switchButton"
-          onClick={() => navigate("/S4SInstrument/smkt")}
+          onClick={() => navigate("/GeneralTool/smkt")}
         >
           Переключиться на Самокат
         </button>

@@ -1,4 +1,3 @@
-/* src/LoginPage.css */
 body,
 html {
   height: 100%;
@@ -7,7 +6,7 @@ html {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Неяркий фон */
+  background-color: #f0f0f0;
 }
 
 .login-container {

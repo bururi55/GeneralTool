@@ -8,7 +8,7 @@ const PrivateRoute = ({ children }) => {
   if (!isAuthenticated) {
     return (
       <Navigate
-        to={`/S4SInstrument/?attemptedAccess=true`}
+        to={`/GeneralTool?attemptedAccess=true`}
         state={{ from: location }}
       />
     );

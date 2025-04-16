@@ -1,7 +1,6 @@
-// src/LoginPage.jsx
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import "./LoginPage.css"; // Убедитесь, что стили подключены
+import "./LoginPage.css";
 
 const LoginPage = () => {
   const [login, setLogin] = useState("");
@@ -22,7 +21,7 @@ const LoginPage = () => {
 
     if (login === validLogin && password === validPassword) {
       sessionStorage.setItem("isAuthenticated", "true");
-      navigate("/S4SInstrument/mm");
+      navigate("/GeneralTool/mm");
     } else {
       alert("Неверный логин или пароль. ЗАКРУЛ СТРАНИЦУ ТЦУКА!");
     }

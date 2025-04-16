@@ -20,7 +20,7 @@ const SMKTMainComponent = () => {
 
         <button
           className="switchButton"
-          onClick={() => navigate("/S4SInstrument/mm")}
+          onClick={() => navigate("/GeneralTool/mm")}
         >
           Переключиться на Мегамаркет
         </button>

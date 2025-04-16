@@ -3,7 +3,7 @@ body,
 html {
   margin: 0;
   padding: 0;
-  //overflow: hidden;
+  /*overflow: hidden;*/
   background-image: url("/src/assets/easter1.jfif");
   background-repeat: no-repeat;
   background-position: center center;
@@ -22,7 +22,7 @@ html {
   padding: 0px;
 }
 
-//кнопка перехода
+/*кнопка перехода*/
 .top-buttons {
   display: flex;
   margin-top: 5px;
