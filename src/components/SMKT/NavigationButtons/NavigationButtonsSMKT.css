@@ -1,6 +1,6 @@
 /* Код внешки кнопок перехода */
 .navigation-buttonsSMKT {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -13,7 +13,7 @@ a.bottSMKT {
   font: bold 14px arial;
   text-transform: uppercase;
   padding: 10px 15px;
-  margin: 0px auto;
+  margin: 5px auto;
   color: #ccc;
   background-color: #f8a849;
   background-image: linear-gradient(top, #103200 0%, #103200 100%);

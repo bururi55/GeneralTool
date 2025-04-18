@@ -90,14 +90,6 @@ const NavigationButtons = () => {
         </a>
         &emsp;
         <a
-          href="https://ats.workround.tech/"
-          target="_blank"
-          className="bottSMKT"
-        >
-          ATS не админ
-        </a>
-        &emsp;
-        <a
           href="https://auth.smkt.pro/admin/master/console/"
           target="_blank"
           className="bottSMKT"
@@ -112,7 +104,6 @@ const NavigationButtons = () => {
         >
           Сводная по АТ
         </a>
-        &emsp;
       </center>
       <center>
         <a
@@ -209,14 +200,6 @@ const NavigationButtons = () => {
           className="bottSMKT"
         >
           Space Штат
-        </a>
-        &emsp;
-        <a
-          href="https://docs.google.com/spreadsheets/d/1heF3YbEp028YM7e0KMn86en3-PDElyYkA-5zGuBJZls/edit?gid=212913565#gid=212913565"
-          target="_blank"
-          className="bottSMKT"
-        >
-          График Внешки
         </a>
         &emsp;
         <a
