@@ -221,10 +221,10 @@ const CopyButtons = () => {
         <br />Как только получим ответ, напишем в личные сообщения Telegram
         </div>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text53">
-        Данные для входа отправил на корпоративную почту. Если не получишь письмо в течение суток, напиши нам повторно, пожалуйста
+        Данные для входа отправил на корпоративную почту
         </div>
         <div className="preserve-formatting" style={{ fontSize: 0 }} id="text54">
-          Данные для входа отправил на корпоративную почту. Если не получишь письмо в течение суток, напиши нам повторно, пожалуйста
+          Данные передал, ответ отправят в течение 3 календарных дней.  Если по истечении срока не получишь обратную связь, то напиши нам повторно
         </div>
         <button onClick={() => copyText("#text52")} className="copy-button">
           Чатвуд ТО Задача
@@ -233,7 +233,7 @@ const CopyButtons = () => {
           ЕРМ сброс пароля
         </button>
         <button onClick={() => copyText("#text54")} className="copy-button">
-          ERM Пароль
+          ЖБ передали
         </button>
       </div>
       <div className="copy-button-group-MM">

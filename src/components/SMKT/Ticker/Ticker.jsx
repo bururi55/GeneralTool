@@ -23,7 +23,7 @@ const Ticker = () => {
       >
         Связь
       </a>
-      <p className="versia">Version 3.0</p>
+      <p className="versia">Version 1.3</p>
     </div>
   );
 };
